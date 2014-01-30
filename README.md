@@ -1,7 +1,9 @@
 xcompose-latex
 ==============
 
-Generate entries to add to your XCompose from latex commands descriptions
+Generate entries to add to your XCompose from latex commands descriptions.
+
+You should probably use a real mappings but this one could come handy.
 
 Example
 =======
