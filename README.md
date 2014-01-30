@@ -5,6 +5,11 @@ Generate entries to add to your XCompose from latex commands descriptions.
 
 You should probably use a real mappings but this one could come handy.
 
+Known issues
+============
+
+Problem: some entries are prefixes of others, making the former impossible to use, like "\ll" and "\lll". Maybe add a space at the end? That may be annoying to use.
+
 Example
 =======
 
