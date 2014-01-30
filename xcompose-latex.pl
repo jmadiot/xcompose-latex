@@ -10,7 +10,7 @@ while(<>){
     (my $xcode = $1) =~ s/(.)/<$1> /g;
     print "<Multi_key> <backslash> $xcode<space> : \"$char\"  # latex \\$code\n";
   } else {
-    if($_ =~ m/^[A-Za-z0-9 ]*/) {
+    if($_ =~ m/^[A-Za-z0-9\t ]*$/) {
       # do nothing, only boring characters here
     } else {
       # maybe something missed here

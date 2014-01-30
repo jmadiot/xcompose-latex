@@ -10,7 +10,7 @@ Known issues
 
 ~~Problem: some entries are prefixes of others, making the former impossible to use, like "\ll" and "\lll". Maybe add a space at the end? That may be annoying to use.~~ Let's see how it goes with a space at the end of the sequence.
 
-ASCII characters won't be recognized as candidates for special characters, that is probably for the best. However, if there are non `[A-Za-z0-9 ]` characters in the source file, an insightful comment will be outputted instead of the XCompose command, allowing manual handling of the pathological case.
+ASCII characters won't be recognized as candidates for special characters, that is probably for the best. However, if there are non `[A-Za-z0-9\t ]` characters in the source file, an insightful comment will be outputted instead of the XCompose command, allowing manual handling of the pathological case.
 
 Example
 =======
