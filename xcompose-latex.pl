@@ -8,7 +8,7 @@ while(<>){
     $char = $2;
     my $code = $1;
     (my $xcode = $1) =~ s/(.)/<$1> /g;
-    print "<Multi_key> <backslash> $xcode: \"$char\"  # latex \\$code\n";
+    print "<Multi_key> <backslash> $xcode<space> : \"$char\"  # latex \\$code\n";
   } else {
     if($_ =~ m/^[A-Za-z0-9 ]*/) {
       # do nothing, only boring characters here
